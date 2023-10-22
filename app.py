@@ -18,7 +18,6 @@ def get_weatherdata():
     response=request.get(url,params=params)
     data=response.json()
     return f"data :{data}"
-import requests
 
 # data = requests.get(url, params=params)
 
